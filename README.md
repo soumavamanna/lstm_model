@@ -48,8 +48,8 @@ The network consists of three main layers:
 ### Architecture Diagram
 ```mermaid
 graph LR
-    A[Input Text] --> B(Tokenization & Padding)
-    B --> C[Embedding Layer<br/>(1000 -> 128 dims)]
-    C --> D[LSTM Layer<br/>(128 Units)]
-    D --> E[Dense Layer<br/>(Sigmoid)]
-    E --> F[Output Probability]
+    A["Input Text"] --> B("Tokenization & Padding")
+    B --> C["Embedding Layer<br/>(1000 -> 128 dims)"]
+    C --> D["LSTM Layer<br/>(128 Units)"]
+    D --> E["Dense Layer<br/>(Sigmoid)"]
+    E --> F["Output Probability"]
